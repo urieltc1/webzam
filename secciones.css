@@ -1,0 +1,146 @@
+
+*
+{
+    box-sizing: border-box;
+
+}
+
+h1,h2,h4,h5,h6
+{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #444;
+    font-family: rale;
+   
+
+}
+
+h2
+{
+    font-size: 26px;
+    color: #333;
+}
+h3
+{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    font-weight: normal;
+    color: #777;
+}
+h4
+{
+    margin-top: 15px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+h5
+{
+    font-family: 'Lato',sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    padding: 20px,0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    
+
+}
+p
+{
+    text-align: justify;
+    color: #888;
+    font-size: 15px;
+    font-family: 'lato',sans-serif;
+}
+v
+.contenedor-columnas
+{
+    width: 90%;
+    margin: auto;
+}
+.columnasx3
+{
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.columnasx3 img
+{
+    width: 90%;
+   
+}
+.banner-1
+{
+    width: 100%;
+    background: #1abc9c;
+    clear: both;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; 
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    transition: 0.4s;
+
+}
+.banner-1:hover
+{
+    background: #444;
+    transition: 0.4s;
+}
+.banner-1 h3
+{
+    color: #fff;
+    font-size: 32px;
+}
+.banner-1 a
+{
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.columnasx3 i
+{
+    float: left;
+    padding-right: 20px;
+}
+.banner-2
+{
+    background: url(imagenes/sala.jpg);
+    background-repeat: no-repeat;/*no se repitira*/
+    background-size: cover;/*imagen al 100% del ancho*/
+    background-attachment: fixed;/*pocision fija para la imagen */
+    width: 100%;
+    height: 200px;
+   clear: both;
+   text-align: center;
+}
+
+.banner-2 h3
+{
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 32px;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+.banner-2 a
+{
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+
+

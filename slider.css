@@ -1,0 +1,41 @@
+#particles-js
+{
+	background:url(imagenes/lounge.jpg);
+	background-position: center;
+	background-attachment:contain;
+	background-size:cover;
+	width: 100%;
+	
+}
+.ancho-letras
+{
+	
+	width: 100%;
+	text-align: center;
+	top: 200px;
+	position: absolute;
+	z-index: 1;
+
+}
+.letras-slider
+{
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+
+}
+.letras-slider h1
+{
+	font-family: rale;
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+
+}
+.ancho-letras p
+{
+	color: #fff;
+	font-family: rale;
+	font-size: 20px;
+	margin-top: 50px;
+}

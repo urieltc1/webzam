@@ -1,0 +1,86 @@
+
+/*tablas ----------------------------------------------------------------------*/
+
+.tabla
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.tablax4
+{
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+}
+.caja-precio
+{
+    border: 1px solid #5c6552;
+    background: #30353c;
+    border-radius: 4px;
+}
+.icono-precio
+{
+    color: #85c34a;
+    padding-top: 20px;
+    font-size:  3em;
+    padding-bottom: 10px;
+
+}
+.caja-precio h4
+{
+    color: #fff;
+
+}
+
+.precio-1
+{
+    color: #85c34a;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.dolar
+{
+    font-size: 20px;
+    vertical-align: super;
+}
+.mes
+{
+    font-size: 20px;
+    color:#999;
+    vertical-align: bottom;
+
+}
+
+.lista-precios
+{
+    list-style: none;
+    padding: 20px 0;
+    color: #81867d;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+.boton-contratar
+{
+    margin-bottom: 25px;
+}
+.contratar-a
+{
+    background: #85c34a;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 70px;
+    letter-spacing: 1px;
+    width: 90%;
+    border-radius: 4px;
+}
+.contratar-a:hover
+{
+    background: #777;
+    
+}

@@ -1,0 +1,205 @@
+ * 
+{
+    margin: 0;
+    padding: 0;
+
+} /*coloca  la caja superior izquierda en la pos 0,0*/
+header
+{
+    width: 100%;
+    background: #000;
+    height: 70px;
+    
+}
+.ancho
+{
+    width: 80%;
+    height: 70px;
+    background: #000;
+    margin: auto;
+}
+
+.logo
+{
+    width: 30%;
+    height: 70px;
+    background: #000;
+    float: left;
+padding: auto;
+    box-sizing: border-box;
+   
+     
+}
+.logo p a 
+{
+    color: #fff;
+    font-size: 40px; 
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+    
+}
+
+@font-face
+{
+
+font-family: rale;
+src:url(../fuentes/Raleway-Regular.ttf)
+}
+
+/*----------------------------------------Tabala---------------------------------------------------*/
+.tabla
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tablax4
+{
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+.caja-columnas /*Color cajas  negras*/
+{
+    border: 1px solid #5c6552;
+    background: #000;
+    border-radius: 4px;
+    text-align: left;
+    color: #000;
+    margin-left: 25px;
+	
+}
+
+/*.caja-columnas:hover 
+{
+	background: #30353c;
+	background-image:none;
+    transition: 0.4s;
+    border-radius: 4px;
+	opacity: .9;
+}
+*/
+.caja-columnas a:hover
+{
+    color: #fff;
+	
+}
+
+.imgen-admin
+{
+	
+	
+}
+
+	
+/* h4
+{
+	filter: blur(50px);
+}
+
+h4:hover
+{
+	filter: none;;
+}*/
+
+
+.letra-apartados
+{
+    color: #85c34a;
+    font-size:  2em;
+	margin-top: 5px;
+    margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom:5px;
+	
+	padding-top: 10px;
+	
+
+}
+.lista-precios a
+{ 
+	
+    text-decoration: none;
+	
+    
+}
+.caja-columnas h4
+{
+    color: #fff;
+	
+
+}
+
+
+
+.lista-precios
+{
+    list-style: none;
+    padding: 20px 0;
+    color: #81867d;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+.lista-espacios a/* tamaño de letras caja*/
+{
+    color: #81867d;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.espacio_footer
+{
+    padding-bottom: 50px;
+}
+
+.administracion:hover
+{
+	background-image:url(../imagenes/analitica.png);
+	background-repeat:round;
+	
+	color: #81867d;
+}
+/*.lista-espacios a
+{
+	filter: blur(10px);
+   
+}
+*/
+/*.lista-espacios a:hover
+{
+	filter:none;	
+}
+*/
+.repositorio
+{
+	background-image:url(../imagenes/archivo.png);
+	background-repeat:round;
+	margin:auto;
+	
+}
+
+
+
+/*-----------------------------------------slyde*------------------------------------------------------------------------------*/
+.wap
+{
+    width: 65%;
+    margin: auto;
+}
+.bienvenidos
+{
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+
